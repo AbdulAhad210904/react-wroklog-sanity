@@ -7,7 +7,7 @@ export default defineConfig({
   name: 'default',
   title: 'worklog',
 
-  projectId: 'gop155j8',
+  projectId: '76jk1b04',
   dataset: 'production',
 
   plugins: [structureTool(), visionTool()],

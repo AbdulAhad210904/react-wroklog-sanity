@@ -1,3 +1,6 @@
 import studio from '@sanity/eslint-config-studio'
+import { createRequire } from 'module';
 
-export default [...studio]
+const require = createRequire(import.meta.url);
+
+export default [...studio];
